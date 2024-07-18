@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Example</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/prueba.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/board.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Juego de Memoria</title>
+</head>
+<body>
+    <button id="myButton">Click me</button>
+
+    <div style="
+   /* display: grid;*/
+/*    max-height: 60px;
+    min-height: 60px;*/
+    min-width: 100%;
+    max-width: 100%;
+    padding-left: 400px;
+/*    padding-right: 400px;*/
+
+">
+        <table>
+            <thead>
+                <tr>
+                    <th><h1>correctas : &nbsp;&nbsp;</h1></th>
+                    <th><span id="SpCorrectas" style="color: brown;" />2</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th><h1>erradas : &nbsp;&nbsp;</h1></th>
+                    <th><span id="SpErradas" style="color: brown;" />3</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <!--<tbody>
+                <tr>
+                    <td></td>
+                    <td>hsides</td>
+                    <td></td>
+                    <td>vsides</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>lhs</td>
+                    <td></td>
+                    <td>rhs</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>border</td>
+                    <td></td>
+                    <td>box</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>void</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>-->
+        </table>
+    </div>
+    <!--c¿Listo para jugar? 😎</h1>-->
+    <main class="board-game">
+
+        <figure>
+            <img class="back" src="./images/back.png" alt="Back">
+            <div class="searched-image">
+                <img class="back" src="./images/back/5.jpg" alt="Back">
+            </div>
+        </figure>
+
+        <figure>
+            <img class="back" src="./images/back.png" alt="Back">
+            <div class="searched-image">
+                <img src="./images/back/7.jpg" alt="Back">
+            </div>
+        </figure>
+
+        <figure>
+            <img class="back" src="./images/back.png" alt="Back">
+            <div class="searched-image">
+                <img src="./images/back/8.jpg" alt="Back">
+            </div>
+        </figure>
+
+        <figure>
+            <img class="back" src="./images/back.png" alt="Back">
+            <div class="searched-image">
+                <img src="./images/back/9.jpg" alt="Back">
+            </div>
+        </figure>
+
+        <figure>
+            <img class="back" src="./images/back.png" alt="Back">
+            <div class="searched-image">
+                <img src="./images/back/5.jpg" alt="Back">
+            </div>
+        </figure>
+
+        <figure>
+            <img class="back" src="./images/back.png" alt="Back">
+            <div class="searched-image">
+                <img src="./images/back/8.jpg" alt="Back">
+            </div>
+        </figure>
+
+        <figure>
+            <img class="back" src="./images/back.png" alt="Back">
+            <div class="searched-image">
+                <img src="./images/back/7.jpg" alt="Back">
+            </div>
+        </figure>
+
+        <figure>
+            <img class="back" src="./images/back.png" alt="Back">
+            <div class="searched-image">
+                <img src="./images/back/9.jpg" alt="Back">
+            </div>
+        </figure>
+
+    </main>
+
+
+
+    <!--<script src="./js/script.js"></script>-->
+    <!--<script src="./js/Memoria.js"></script>-->
+
+</body>
+</html>
